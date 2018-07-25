@@ -1,6 +1,6 @@
-# Desscription
+# Description
 zaifさんへの注文はオフィシャル画面で通らないとき（しばらくフリーズする）があり、このツールでは注文が板に載せるまで注文リクエストを繰り返す。
-# Requirement
+# Requirements
 python3.6 or above、Flask、zaif-client
 # Installation
 git clone https://github.com/soarbear/zaif_order_tool.git<br>
