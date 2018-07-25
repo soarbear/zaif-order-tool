@@ -11,5 +11,5 @@ python3 app.py<br>
 => now access http://localhost:5000/ with browser.
 # Disclaimer
 The developer will not be responsible for Any losses made by using or referring to the tool.<br>
-Understand the risks involved, using or referring to the bot on your own responsibility.
+Understand the risks involved, using or referring to the bot on your own responsibility.<br>
 このツールの利用はご自己責任でお願いします。
