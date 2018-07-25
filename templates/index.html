@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html  lang="ja">
+    <head>
+        <title>zaif click</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="panel panel-info">
+            <div class="panel panel-heading">Zaif Click</div>
+            <div class="panel-body">
+                Attention: Click get_info2 button to get and confirm last_price firstly, then place an ask or bid order. Disclaimer: USE THIS APP AT YOUR OWN RISK.
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Request</th><th scope="col">Respopnse | Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <form action="/" method="get" style="display: inline;">
+                                <button name="account_info" value="account_info" class="btn btn-info btn-sm">get_info2</button>
+                            </form>
+                        </th>
+                        <td>{% if account_info %}{{ account_info }}{% else %}Get account info and last_price{% endif %}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">
+                            <form action="/" method="get" style="display: inline;">
+                                <button name="buy_order" value="buy_order" class="btn btn-success btn-sm">buy_order</button>
+                            </form>
+                        </td>  
+                        <td>{% if buy_info %}{{ buy_info }}{% else %}Ask BTC with funds_jpy and last_price{% endif %}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">
+                            <form action="/" method="get" style="display: inline;">
+                                <button name="sell_order" value="sell_order" class="btn btn-danger btn-sm">sell_order</button>
+                            </form>
+                        </td>  
+                        <td>{% if sell_info %}{{ sell_info }}{% else %}Bid BTC with funds_jpy and last_price{% endif %}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">
+                            <form action="/" method="get" style="display: inline;">
+                                <button name="cancel_order" value="cancel_order" class="btn btn-primary btn-sm">cancel_order</button>
+                            </form>
+                        </td>  
+                        <td>{% if cancel_info %}{{ cancel_info }}{% else %}Cancel existed order{% endif %}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>                
+<!--                
+            <div class="panel panel-body">
+                <div class="row col-xs-offset-1 form-group">
+                    <form action="/" method="get" style="display: inline;">
+                        <button name="account_info" value="account_info" class="btn btn-info">get_info2</button>
+                    </form>
+                    {% if account_info %}{{ account_info }}{% endif %}
+                </div>
+                <div class="row col-xs-offset-1 form-group">
+                    <form action="/" method="get" style="display: inline;">
+                        <button name="buy_order" value="buy_order" class="btn btn-success">buy_order</button>
+                    </form>
+                    {% if buy_info %}{{ buy_info }}{% endif %}
+                </div>
+                <div class="row col-xs-offset-1 form-group">            
+                    <form action="/" method="get" style="display: inline;">
+                        <button name="sell_order" value="sell_order" class="btn btn-danger">sell_order</button>
+                    </form>
+                    {% if sell_info %}{{ sell_info }}{% endif %}
+                </div>
+            </div>
+-->
+
