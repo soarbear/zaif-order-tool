@@ -3,7 +3,7 @@ zaifさんへの注文はオフィシャル画面で通らないとき（しば�
 # Requirements
 python3.6 or above、Flask、zaif-client
 # Installation
-git clone https://github.com/soarbear/zaif_order_tool.git<br>
+git clone https://github.com/soarbear/zaif-order-tool.git<br>
 cd zaif_order_tool<br>
 sudo pip3 install flask<br>
 sudo pip3 install zaif-client<br>
