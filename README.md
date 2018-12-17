@@ -1,10 +1,10 @@
 # Description
-zaifさんへの注文はオフィシャル画面で通らないとき（しばらくフリーズする）があり、このツールでは注文が板に載せるまで注文リクエストを繰り返す。<br>
-主な機能<br>
-１）資産、価格情報を取得<br>
-２）買い注文・売り注文を出す<br>
-３）投げた注文の状況を確認する<br>
-４）投げた注文をキャンセルする
+Sometimes order does not go through on Zaif official site (freezes for a while and returns null).This tool repeats the order request until the order is placed on the board. <br>
+Main function <br>
+1) Acquire asset and price information <br>
+2) Submit buy / sell order <br>
+3) Check the status of thrown order <br>
+4) Cancel the thrown order
 # Requirements
 python3.6 or above、Flask、zaif-client
 # Installation
@@ -18,3 +18,4 @@ python3 app.py<br>
 The developer will not be responsible for Any losses made by using or referring to the tool.<br>
 Understand the risks involved, using or referring to the bot on your own responsibility.<br>
 このツールの利用はご自己責任でお願いします。
+<a href="http://memo.soarcloud.com/zaif-web-%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%83%84%E3%83%BC%E3%83%AB/">日本語説明</a>
