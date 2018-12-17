@@ -18,4 +18,4 @@ python3 app.py<br>
 The developer will not be responsible for Any losses made by using or referring to the tool.<br>
 Understand the risks involved, using or referring to the bot on your own responsibility.<br>
 このツールの利用はご自己責任でお願いします。
-<a href="http://memo.soarcloud.com/zaif-web-%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%83%84%E3%83%BC%E3%83%AB/">日本語説明</a>
+<a href="http://memo.soarcloud.com/zaif-web-%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%83%84%E3%83%BC%E3%83%AB/">このツールの説明（日本語）</a>
